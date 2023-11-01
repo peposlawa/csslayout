@@ -1,0 +1,55 @@
+span {
+    font-size: 17pt;
+}
+
+#main {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.simple {
+    width: 500px;
+    margin: 20px auto;
+    border: solid blue 5px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.fancy {
+    width: 500px;
+    margin: 20px auto;
+    padding: 50px;
+    border: solid blue 5px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.relative1 {
+    position: relative;
+    border: solid rgb(189, 125, 202) 2px;
+  }
+
+.relative2 {
+    position: relative;
+    top: -5px;
+    left: 20px;
+    background-color: rgb(223, 236, 239);
+    border: solid rgb(25, 202, 202) 2px;
+    width: 500px;
+  }
+
+.fixed {
+    position: fixed;
+    bottom: 0;
+    right: auto;
+    width: 100px;
+    border: solid orange 1px;
+  }
+
+.relative3 {
+    position: relative;
+    width: 200px;
+    height: 100px;
+  }
